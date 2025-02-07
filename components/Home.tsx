@@ -1,14 +1,13 @@
 import type { NextPage } from "next";
-import "bootstrap/dist/css/bootstrap.min.css";
-import { Button } from "react-bootstrap";
 import Image from "next/image";
-import styles from "./frame-component3.module.css";
+import GroupComponent from "./group-component";
+import styles from "./Home.module.css";
 
-export type FrameComponent3Type = {
+export type HomeType = {
   className?: string;
 };
 
-const FrameComponent3: NextPage<FrameComponent3Type> = ({ className = "" }) => {
+const Home: NextPage<HomeType> = ({ className = "" }) => {
   return (
     <section className={[styles.cleanaroHomePageInner, className].join(" ")}>
       <div className={styles.frameParent}>
@@ -65,14 +64,23 @@ const FrameComponent3: NextPage<FrameComponent3Type> = ({ className = "" }) => {
               </div>
             </div>
           </div>
-          <Button variant="primary" />
+          <a className={styles.link} href="/about">
+            <div className={styles.appointmentButton}>
+              <div className={styles.strongTermin}>Lorem ipsum</div>
+            </div>
+            <Image
+              className={styles.linkIcon}
+              width={40}
+              height={40}
+              alt=""
+              src="/link.svg"
+            />
+          </a>
         </div>
-        <video className={styles.wrapper} autoPlay muted loop controls>
-          <source src="https://youtu.be/wwpAQ0szKxg" />
-        </video>
+        <GroupComponent />
       </div>
     </section>
   );
 };
 
-export default FrameComponent3;
+export default Home;

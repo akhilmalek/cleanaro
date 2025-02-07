@@ -26,6 +26,7 @@
   position: relative;
   line-height: 140%;
   font-weight: 600;
+  white-space: nowrap;
   z-index: 1;
 }
 .ceoXyzCompny {
@@ -33,8 +34,6 @@
   font-size: var(--font-size-sm);
   line-height: 150%;
   color: var(--gray-2);
-  display: inline-block;
-  min-width: 126px;
   z-index: 1;
 }
 .memberNamesAndRoles {
@@ -57,26 +56,26 @@
   z-index: 1;
 }
 .bruhDeepMeggings {
-  width: 327px;
+  align-self: stretch;
   position: relative;
   line-height: 150%;
   font-weight: 500;
-  display: inline-block;
-  max-width: 100%;
   z-index: 1;
 }
 .memberQuote {
+  align-self: stretch;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
   gap: var(--gap-xs);
-  max-width: 100%;
   color: var(--gray-2);
 }
 .rectangleParent {
+  width: 367px;
   border-radius: var(--br-base);
   background-color: var(--white);
+  flex-shrink: 0;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -94,5 +93,10 @@
 @media screen and (max-width: 450px) {
   .rectangleParent {
     gap: var(--gap-xl);
+  }
+}
+@media screen and (max-width: 420px) {
+  .rectangleParent {
+    z-index: 1000;
   }
 }

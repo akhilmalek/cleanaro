@@ -15,7 +15,6 @@
   padding: 0px var(--padding-40xl);
 }
 .consecteturMorbiScelerisque {
-  align-self: stretch;
   position: relative;
   font-size: var(--font-size-lg);
   line-height: 150%;
@@ -42,14 +41,13 @@
 }
 .frameGroup {
   align-self: stretch;
-  display: flex;
+  display: grid;
   flex-direction: row;
   align-items: flex-start;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-content: flex-start;
+  justify-content: flex-start;
   gap: var(--gap-11xl);
   max-width: 100%;
+  grid-template-columns: repeat(3, minmax(275px, 1fr));
   font-size: var(--font-size-3xl);
 }
 .frameParent {
@@ -76,13 +74,13 @@
   font-family: var(--font-poppins);
 }
 
-@media screen and (max-width: 1125px) {
+@media screen and (max-width: 1050px) {
   .frameGroup {
     justify-content: center;
     grid-template-columns: repeat(2, minmax(275px, 477px));
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 750px) {
   .tristiquePortaLorem {
     font-size: var(--font-size-13xl);
     line-height: 45px;

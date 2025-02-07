@@ -1,37 +1,25 @@
 import type { NextPage } from "next";
 import Image from "next/image";
+import Component1 from "./component1";
 import styles from "./group-component.module.css";
 
 export type GroupComponentType = {
   className?: string;
-  cardIcons: string;
 };
 
-const GroupComponent: NextPage<GroupComponentType> = ({
-  className = "",
-  cardIcons,
-}) => {
+const GroupComponent: NextPage<GroupComponentType> = ({ className = "" }) => {
   return (
-    <div className={[styles.cardIconsParent, className].join(" ")}>
+    <code className={[styles.parent, className].join(" ")}>
+      <Component1 />
       <Image
-        className={styles.cardIcons}
+        className={styles.videoIcon}
         loading="lazy"
-        width={367}
-        height={480}
+        width={80}
+        height={80}
         alt=""
-        src={cardIcons}
+        src="/video-icon1.svg"
       />
-      <div className={styles.rectangleParent}>
-        <div className={styles.frameChild} />
-        <h3 className={styles.sustainableYouNext}>
-          Sustainable you next kick starter chillwave
-        </h3>
-        <div className={styles.hipsterIpsumTattooed}>
-          Hipster ipsum tattooed brunch Vaporware sartorial sustainable franzen
-          post-ironic Messenger poke copper fanny.
-        </div>
-      </div>
-    </div>
+    </code>
   );
 };
 

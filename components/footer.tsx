@@ -39,10 +39,10 @@ const Footer: NextPage<FooterType> = ({ className = "" }) => {
                 <div className={styles.aboutUs}>Contact us</div>
                 <a className={styles.privacyPolicy}>{`Privacy policy `}</a>
               </div>
-              <div className={styles.aboutUsParent}>
+              <div className={styles.faqParent}>
                 <a className={styles.faq}>FAQ</a>
-                <div className={styles.aboutUs}>Pricing</div>
-                <a className={styles.privacyPolicy}>{`Terms & conditions`}</a>
+                <div className={styles.pricing}>Pricing</div>
+                <a className={styles.faq}>{`Terms & conditions`}</a>
               </div>
             </div>
             <div className={styles.newsletter}>

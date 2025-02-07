@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import Image from "next/image";
 import FrameComponent2 from "../components/frame-component2";
-import FrameComponent3 from "../components/frame-component3";
+import Home from "../components/Home";
 import FrameComponent4 from "../components/frame-component4";
 import FrameComponent5 from "../components/frame-component5";
 import FrameComponent6 from "../components/frame-component6";
@@ -23,7 +23,7 @@ const CleanaroHomePage: NextPage = () => {
         src="/video-icon.svg"
       />
       <FrameComponent2 />
-      <FrameComponent3 />
+      <Home />
       <FrameComponent4 />
       <FrameComponent5 />
       <FrameComponent6 />

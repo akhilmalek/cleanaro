@@ -1,0 +1,15 @@
+.div {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  border-radius: var(--br-xl);
+  background-image: url("/undefined@3x.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}

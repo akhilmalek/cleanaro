@@ -5,8 +5,6 @@ import styles from "./testimonial-item.module.css";
 
 export type TestimonialItemType = {
   className?: string;
-  check: string;
-  check1: string;
 
   /** Style props */
   hipsterIpsumTattooedColor?: CSSProperties["color"];
@@ -15,9 +13,7 @@ export type TestimonialItemType = {
 
 const TestimonialItem: NextPage<TestimonialItemType> = ({
   className = "",
-  check,
   hipsterIpsumTattooedColor,
-  check1,
   hipsterIpsumTattooedColor1,
 }) => {
   const hipsterIpsumTattooedStyle: CSSProperties = useMemo(() => {
@@ -41,7 +37,7 @@ const TestimonialItem: NextPage<TestimonialItemType> = ({
             width={24}
             height={24}
             alt=""
-            src={check}
+            src="/check-3.svg"
           />
         </div>
         <div
@@ -59,7 +55,7 @@ const TestimonialItem: NextPage<TestimonialItemType> = ({
             width={24}
             height={24}
             alt=""
-            src={check1}
+            src="/check-3.svg"
           />
         </div>
         <div

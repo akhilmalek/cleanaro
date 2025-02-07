@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import Image from "next/image";
-import FrameComponent from "./frame-component";
+import Header from "./frame-component";
 import styles from "./about.module.css";
 
 export type AboutType = {
@@ -17,12 +17,16 @@ const About: NextPage<AboutType> = ({ className = "" }) => {
         alt=""
         src="/video-icon.svg"
       />
-      <FrameComponent
+      <Header
         frameHeaderFlex="unset"
         frameHeaderAlignSelf="stretch"
         frameHeaderTop="0"
         frameHeaderPosition="sticky"
         lOGOCLEANARO21="/logo-cleanaro2-1@2x.png"
+        homeMinWidth="41px"
+        lEISTUNGENMinWidth="85px"
+        jOBSSTELLENMinWidth="111px"
+        bERUNSTextDecoration="unset"
       />
       <section className={styles.innerContentParent}>
         <div className={styles.innerContent}>
