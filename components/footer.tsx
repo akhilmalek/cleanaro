@@ -35,7 +35,7 @@ const Footer: NextPage<FooterType> = ({ className = "" }) => {
             </div>
             <div className={styles.footerLinks}>
               <div className={styles.aboutUsParent}>
-                <div className={styles.aboutUs}>About us</div>
+                <a href="/about" className={styles.aboutUs}>About us</a>
                 <div className={styles.aboutUs}>Contact us</div>
                 <a className={styles.privacyPolicy}>{`Privacy policy `}</a>
               </div>
