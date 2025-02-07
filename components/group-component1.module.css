@@ -1,0 +1,98 @@
+.frameChild {
+  width: 367px;
+  height: 287px;
+  position: relative;
+  border-radius: var(--br-base);
+  background-color: var(--white);
+  display: none;
+  max-width: 100%;
+}
+.loremIpsumDolorSitAmetCon {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  border-radius: var(--br-21xl);
+  object-fit: cover;
+  z-index: 1;
+}
+.memberInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0px 0px;
+}
+.alexenderMartini {
+  position: relative;
+  line-height: 140%;
+  font-weight: 600;
+  z-index: 1;
+}
+.ceoXyzCompny {
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 150%;
+  color: var(--gray-2);
+  display: inline-block;
+  min-width: 126px;
+  z-index: 1;
+}
+.memberNamesAndRoles {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.memberProfiles {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.memberQuoteChild {
+  width: 148px;
+  height: 28px;
+  position: relative;
+  z-index: 1;
+}
+.bruhDeepMeggings {
+  width: 327px;
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.memberQuote {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  max-width: 100%;
+  color: var(--gray-2);
+}
+.rectangleParent {
+  border-radius: var(--br-base);
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) var(--padding-xl) var(--padding-5xl);
+  box-sizing: border-box;
+  gap: var(--gap-21xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--black);
+  font-family: var(--font-poppins);
+}
+
+@media screen and (max-width: 450px) {
+  .rectangleParent {
+    gap: var(--gap-xl);
+  }
+}

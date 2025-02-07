@@ -1,0 +1,111 @@
+.frameChild {
+  width: 367px;
+  height: 287px;
+  position: relative;
+  border-radius: var(--br-base);
+  background-color: var(--white);
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.alexenderMartini {
+  position: relative;
+  line-height: 140%;
+  font-weight: 600;
+  white-space: nowrap;
+  z-index: 1;
+}
+.ceoXyzCompny {
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 150%;
+  color: var(--gray-2);
+  display: inline-block;
+  min-width: 126px;
+  z-index: 1;
+}
+.alexenderMartiniParent {
+  width: 37px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px 0px 0px;
+  box-sizing: border-box;
+}
+.frameItem {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  margin: 0 !important;
+  top: 21px;
+  left: 20px;
+  border-radius: var(--br-21xl);
+  object-fit: cover;
+  z-index: 1;
+}
+.singleMemberQuoteChild {
+  width: 148px;
+  height: 28px;
+  position: relative;
+  z-index: 1;
+}
+.bruhDeepMeggings {
+  width: 327px;
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 368%;
+  z-index: 1;
+}
+.singleMemberQuote {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px 0px 0px;
+  gap: var(--gap-xs);
+  color: var(--gray-2);
+}
+.rectangleParent {
+  width: 367px;
+  border-radius: var(--br-base);
+  background-color: var(--white);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-xl) var(--padding-239xl) var(--padding-5xl)
+    var(--padding-xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-21xl);
+  max-width: 100%;
+}
+.frameParent {
+  width: 1320px;
+  overflow-x: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-xl) 0px 0px;
+  box-sizing: border-box;
+  gap: var(--gap-11xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--black);
+  font-family: var(--font-poppins);
+}
+
+@media screen and (max-width: 450px) {
+  .rectangleParent {
+    gap: var(--gap-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

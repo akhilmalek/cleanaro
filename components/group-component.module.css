@@ -1,0 +1,84 @@
+.cardIcons {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  border-radius: var(--br-xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.frameChild {
+  width: 335px;
+  height: 168px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--white);
+  display: none;
+  max-width: 100%;
+}
+.sustainableYouNext {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 140%;
+  font-weight: 600;
+  font-family: inherit;
+  z-index: 1;
+}
+.hipsterIpsumTattooed {
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 160%;
+  color: var(--gray-2);
+  z-index: 1;
+}
+.rectangleParent {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+  z-index: 1;
+}
+.cardIconsParent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-277xl) var(--padding-base) var(--padding-base);
+  box-sizing: border-box;
+  position: relative;
+  min-width: 275px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--black);
+  font-family: var(--font-poppins);
+}
+
+@media screen and (max-width: 800px) {
+  .cardIconsParent {
+    padding-top: var(--padding-173xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .sustainableYouNext {
+    font-size: var(--font-size-lg);
+    line-height: 25px;
+  }
+}

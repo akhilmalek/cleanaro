@@ -1,0 +1,82 @@
+.videoIcon {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  border-radius: var(--br-46xl);
+  display: none;
+}
+.frameGroup {
+  width: 1558px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+  max-width: 120%;
+}
+.frameChild {
+  height: 40px;
+  width: 100px;
+  position: relative;
+}
+.frameWrapper {
+  width: 1160px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0px var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameParent {
+  width: 1320px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px var(--padding-33xl) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-13xl);
+  max-width: 100%;
+}
+.cleanaroHomePage {
+  width: 100%;
+  position: relative;
+  background-color: var(--bg);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 68px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+@media screen and (max-width: 1350px) {
+  .frameParent {
+    padding-bottom: var(--padding-15xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .frameGroup {
+    gap: var(--gap-xl);
+  }
+
+  .frameParent {
+    gap: var(--gap-base);
+    padding-bottom: var(--padding-3xl);
+    box-sizing: border-box;
+  }
+
+  .cleanaroHomePage {
+    gap: 34px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .cleanaroHomePage {
+    gap: 17px;
+  }
+}

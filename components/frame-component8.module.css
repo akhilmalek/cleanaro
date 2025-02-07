@@ -1,0 +1,246 @@
+.tristiquePortaLorem {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 140%;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+}
+.heading {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-40xl);
+}
+.consecteturMorbiScelerisque {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 150%;
+  color: var(--gray);
+  text-align: center;
+}
+.headingParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  max-width: 100%;
+}
+.content {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0px var(--padding-xl) 0px var(--padding-2xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameChild {
+  width: 565px;
+  height: 612px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--main);
+  display: none;
+  max-width: 100%;
+}
+.logoCleanaro22Icon {
+  width: 93.2px;
+  height: 48px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.testimonialHeaderChild {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.testimonialHeader {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px var(--padding-12xs);
+  gap: var(--gap-5xl);
+}
+.checkIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.hipsterIpsumTattooed {
+  flex: 1;
+  position: relative;
+  line-height: 160%;
+  display: inline-block;
+  min-width: 311px;
+  max-width: 100%;
+  z-index: 1;
+}
+.testimonialItem {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  max-width: 100%;
+}
+.checkIcon1 {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.checkmark {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0px 0px;
+}
+.testimonialBody {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xl);
+  max-width: 100%;
+}
+.rectangleParent {
+  flex: 1;
+  border-radius: var(--br-xl);
+  background-color: var(--main);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) var(--padding-5xl) var(--padding-13xl);
+  box-sizing: border-box;
+  gap: var(--gap-10xl);
+  max-width: 100%;
+}
+.frameItem {
+  width: 565px;
+  height: 612px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--white);
+  display: none;
+  max-width: 100%;
+}
+.samsungBlackWordmark {
+  width: 210.1px;
+  height: 48px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.rectangleGroup {
+  flex: 1;
+  border-radius: var(--br-xl);
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) var(--padding-5xl) var(--padding-13xl);
+  box-sizing: border-box;
+  gap: var(--gap-10xl);
+  max-width: 100%;
+}
+.testimonial {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-11xl);
+  max-width: 100%;
+  font-size: var(--font-size-base);
+  color: var(--pink);
+}
+.container {
+  width: 1160px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+  max-width: 100%;
+}
+.containerWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0px var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--black);
+  font-family: var(--font-poppins);
+}
+
+@media screen and (max-width: 1125px) {
+  .testimonial {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .tristiquePortaLorem {
+    font-size: var(--font-size-13xl);
+    line-height: 45px;
+  }
+
+  .heading {
+    padding-left: var(--padding-10xl);
+    padding-right: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+
+  .testimonialItem {
+    flex-wrap: wrap;
+  }
+
+  .rectangleParent {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+
+  .rectangleGroup {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+
+  .container {
+    gap: var(--gap-xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .tristiquePortaLorem {
+    font-size: var(--font-size-5xl);
+    line-height: 34px;
+  }
+}

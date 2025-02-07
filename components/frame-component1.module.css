@@ -1,0 +1,312 @@
+.loremIpsumDolor {
+  margin: 0;
+  width: 565px;
+  position: relative;
+  font-size: inherit;
+  line-height: 140%;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.hipsterIpsumTattooed {
+  flex: 1;
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+  min-width: 367px;
+  max-width: 100%;
+}
+.frameChild {
+  width: 141px;
+  height: 104px;
+  position: relative;
+  border-radius: var(--br-base);
+  background-color: var(--pink);
+  border: 1.4px solid var(--bg);
+  box-sizing: border-box;
+  display: none;
+}
+.contact {
+  flex: 1;
+  position: relative;
+  line-height: 120%;
+  font-weight: 600;
+  z-index: 1;
+}
+.highlightItem {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-smi) 0px var(--padding-sm);
+}
+.loremIpsum {
+  width: 92px;
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 140%;
+  color: var(--gray-2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.rectangleParent {
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-base);
+  background-color: var(--pink);
+  border: 1.4px solid var(--bg);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xl) var(--padding-2xl) var(--padding-lg)
+    var(--padding-6xl);
+  gap: var(--gap-9xs);
+  z-index: 1;
+}
+.contentHighlights {
+  height: 253px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-130xl) 0px 0px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-11xl);
+  color: var(--main);
+}
+.contentDescription {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+  max-width: 100%;
+  font-size: var(--font-size-lg);
+  color: var(--gray);
+}
+.contentThreeTitle {
+  width: 736px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.tristiquePortaLorem {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 140%;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+}
+.contentThreeTitleTwo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-40xl);
+}
+.consecteturMorbiScelerisque {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 150%;
+  color: var(--gray);
+  text-align: center;
+}
+.contentThreeDescriptionTwo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  max-width: 100%;
+}
+.contentThreeParagraphTwo {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+}
+.contentThreeParagraph {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-101xl);
+  max-width: 100%;
+}
+.imagePlaceholderIcon {
+  height: 510px;
+  width: 433px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -315px;
+  left: -328px;
+  border-radius: var(--br-base);
+  object-fit: cover;
+}
+.frameItem {
+  width: 168px;
+  height: 126px;
+  position: relative;
+  border-radius: var(--br-base);
+  background-color: var(--pink);
+  border: 1.4px solid var(--bg);
+  box-sizing: border-box;
+  display: none;
+}
+.emptyDescription {
+  width: 106px;
+  position: relative;
+  line-height: 120%;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.loremIpsum1 {
+  width: 105px;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 140%;
+  color: var(--gray-2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.rectangleGroup {
+  align-self: stretch;
+  border-radius: var(--br-base);
+  background-color: var(--pink);
+  border: 1.4px solid var(--bg);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xl) var(--padding-8xl) var(--padding-7xl)
+    var(--padding-13xl);
+  z-index: 1;
+}
+.imageAndDescriptionTwo {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.imageAndDescriptionTwoWrapper {
+  height: 195px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-50xl) 0px 0px;
+  box-sizing: border-box;
+  text-align: center;
+  color: var(--main);
+}
+.contentThreeParagraphParent {
+  width: 1180px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  padding: 0px var(--padding-xl) 0px 0px;
+  box-sizing: border-box;
+  gap: var(--gap-12xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--black);
+  font-family: var(--font-poppins);
+}
+
+@media screen and (max-width: 1125px) {
+  .contentThreeParagraph {
+    gap: var(--gap-41xl);
+  }
+}
+@media screen and (max-width: 800px) {
+  .loremIpsumDolor {
+    font-size: var(--font-size-13xl);
+    line-height: 45px;
+  }
+
+  .contact {
+    font-size: var(--font-size-5xl);
+    line-height: 29px;
+  }
+
+  .contentDescription {
+    flex-wrap: wrap;
+  }
+
+  .tristiquePortaLorem {
+    font-size: var(--font-size-13xl);
+    line-height: 45px;
+  }
+
+  .contentThreeTitleTwo {
+    padding-left: var(--padding-10xl);
+    padding-right: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+
+  .contentThreeParagraph {
+    gap: var(--gap-11xl);
+    min-width: 100%;
+  }
+
+  .emptyDescription {
+    font-size: var(--font-size-13xl);
+    line-height: 38px;
+  }
+
+  .contentThreeParagraphParent {
+    gap: var(--gap-mini);
+  }
+}
+@media screen and (max-width: 450px) {
+  .loremIpsumDolor {
+    font-size: var(--font-size-5xl);
+    line-height: 34px;
+  }
+
+  .hipsterIpsumTattooed {
+    min-width: 100%;
+  }
+
+  .contact {
+    font-size: var(--font-size-lg);
+    line-height: 22px;
+  }
+
+  .tristiquePortaLorem {
+    font-size: var(--font-size-5xl);
+    line-height: 34px;
+  }
+
+  .emptyDescription {
+    font-size: var(--font-size-5xl);
+    line-height: 29px;
+  }
+}

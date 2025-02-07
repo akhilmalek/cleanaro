@@ -1,0 +1,211 @@
+.frameChild {
+  width: 1440px;
+  height: 481px;
+  position: relative;
+  background-color: var(--main);
+  display: none;
+  max-width: 100%;
+}
+.tristiquePortaLorem {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 140%;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 1;
+}
+.contentTwoTitle {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-xl) 0px var(--padding-2xl);
+}
+.loremIpsumDolor {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 160%;
+  color: var(--pink);
+  text-align: center;
+  z-index: 1;
+}
+.contentTwoParagraph {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  max-width: 100%;
+}
+.contentTwoParagraphWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-56xl) 0px var(--padding-55xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.testimonialSliderChild {
+  height: 80px;
+  width: 80px;
+  position: relative;
+  z-index: 1;
+}
+.testimonialCardsChild {
+  align-self: stretch;
+  height: 2px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.testimonialCards {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-20xl) 0px 0px;
+  box-sizing: border-box;
+  min-width: 120px;
+}
+.testimonialSlider {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: var(--gap-base);
+  max-width: 100%;
+}
+.testimonialSliderWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0px var(--padding-xl) 0px var(--padding-2xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.loremIpsum {
+  align-self: stretch;
+  position: relative;
+  line-height: 140%;
+  z-index: 1;
+}
+.loremIpsumDolor1 {
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 150%;
+  color: var(--pink);
+  z-index: 1;
+}
+.testimonialQuotes {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  min-width: 200px;
+  max-width: 267px;
+}
+.testimonialContent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: var(--gap-11xl);
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-xl);
+}
+.rectangleParent {
+  flex: 1;
+  background-color: var(--main);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-61xl) var(--padding-122xl);
+  box-sizing: border-box;
+  gap: var(--gap-21xl);
+  max-width: 100%;
+}
+.cleanaroHomePageInner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px var(--padding-33xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--white);
+  font-family: var(--font-poppins);
+}
+
+@media screen and (max-width: 1350px) {
+  .contentTwoParagraphWrapper {
+    padding-left: var(--padding-18xl);
+    padding-right: var(--padding-18xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .tristiquePortaLorem {
+    font-size: var(--font-size-13xl);
+    line-height: 45px;
+  }
+
+  .rectangleParent {
+    gap: var(--gap-xl);
+    padding: var(--padding-33xl) var(--padding-51xl);
+    box-sizing: border-box;
+  }
+
+  .cleanaroHomePageInner {
+    padding-bottom: var(--padding-15xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .tristiquePortaLorem {
+    font-size: var(--font-size-5xl);
+    line-height: 34px;
+  }
+
+  .loremIpsum {
+    font-size: var(--font-size-base);
+    line-height: 22px;
+  }
+
+  .rectangleParent {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

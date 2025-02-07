@@ -1,0 +1,138 @@
+.logoCleanaro21Icon {
+  height: 52px;
+  width: 101px;
+  position: relative;
+  object-fit: cover;
+}
+.home {
+  text-decoration: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  width: 41px;
+  height: 20px;
+  min-width: 41px;
+}
+.berUns {
+  text-decoration: none;
+  position: absolute;
+  top: 0px;
+  left: 70px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--gray-2);
+  display: flex;
+  align-items: center;
+  width: 68px;
+  height: 20px;
+  min-width: 68px;
+  white-space: nowrap;
+}
+.navigationCategories {
+  height: 20px;
+  width: 144px;
+  position: relative;
+  color: var(--main);
+}
+.ansprechpartner {
+  text-decoration: none;
+  position: relative;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: inherit;
+}
+.leistungen {
+  text-decoration: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  width: 85px;
+  height: 20px;
+  min-width: 85px;
+}
+.jobsStellen {
+  text-decoration: none;
+  position: absolute;
+  top: 0px;
+  left: 110px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  width: 111px;
+  height: 20px;
+  min-width: 111px;
+  white-space: nowrap;
+}
+.navigationCategories1 {
+  height: 20px;
+  flex: 1;
+  position: relative;
+}
+.topNavigationLinks {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xl);
+}
+.topNavigationLinksWrapper {
+  width: 543px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base) 0px 0px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.logoCleanaro21Parent {
+  flex: 1;
+  background-color: var(--white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-base) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-497xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--gray-2);
+  font-family: var(--font-roboto);
+}
+
+@media screen and (max-width: 1350px) {
+  .logoCleanaro21Parent {
+    gap: var(--gap-239xl);
+  }
+}
+@media screen and (max-width: 800px) {
+  .logoCleanaro21Parent {
+    gap: var(--gap-110xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .logoCleanaro21Parent {
+    gap: var(--gap-45xl);
+  }
+}

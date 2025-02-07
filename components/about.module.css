@@ -1,0 +1,174 @@
+.videoIcon {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  border-radius: var(--br-46xl);
+  display: none;
+}
+.about1 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 140%;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+}
+.hipsterIpsumTattooed {
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 150%;
+  color: var(--gray);
+}
+.aboutParent {
+  width: 1149px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 76px;
+  max-width: 100%;
+}
+.innerContent {
+  width: 1399px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0px var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameChild {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: var(--main);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.samsungBlackWordmark {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 210.1px;
+  height: 32px;
+  overflow: hidden;
+}
+.flickrWithoutTrademark {
+  position: absolute;
+  top: 0px;
+  left: 504.8px;
+  width: 105.7px;
+  height: 32px;
+  overflow: hidden;
+}
+.greaterMiamiIcon {
+  position: absolute;
+  top: 0px;
+  left: 310.1px;
+  width: 94.7px;
+  height: 32px;
+  overflow: hidden;
+}
+.panasonicIcon {
+  position: absolute;
+  top: 0px;
+  left: 710.5px;
+  width: 209.4px;
+  height: 32px;
+  overflow: hidden;
+}
+.g6Icon {
+  position: absolute;
+  width: 14.27%;
+  top: 0px;
+  right: 0%;
+  left: 85.73%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 32px;
+  object-fit: cover;
+}
+.samsungBlackWordmarkParent {
+  position: absolute;
+  top: 44px;
+  left: 125px;
+  width: 1189.7px;
+  height: 32px;
+  opacity: 0.6;
+  z-index: 1;
+}
+.rectangleParent {
+  align-self: stretch;
+  height: 120px;
+  position: relative;
+  background-color: var(--main);
+}
+.innerContentParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 189px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--black);
+  font-family: var(--font-poppins);
+}
+.about {
+  width: 1440px;
+  background-color: var(--bg);
+  max-width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 164px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+@media screen and (max-width: 1200px) {
+  .aboutParent {
+    gap: 38px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .about1 {
+    font-size: var(--font-size-13xl);
+    line-height: 45px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .aboutParent {
+    gap: 19px;
+  }
+
+  .innerContentParent {
+    gap: 94px;
+  }
+
+  .about {
+    gap: 82px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .about1 {
+    font-size: var(--font-size-5xl);
+    line-height: 34px;
+  }
+
+  .innerContentParent {
+    gap: 47px;
+  }
+
+  .about {
+    gap: 41px;
+  }
+}
