@@ -9,19 +9,20 @@
   z-index: 0;
 }
 .alexenderMartini {
+  width: 145px;
   position: relative;
   line-height: 140%;
   font-weight: 600;
-  white-space: nowrap;
+  display: inline-block;
   z-index: 1;
 }
 .ceoXyzCompny {
+  width: 126px;
   position: relative;
   font-size: var(--font-size-sm);
   line-height: 150%;
   color: var(--gray-2);
   display: inline-block;
-  min-width: 126px;
   z-index: 1;
 }
 .alexenderMartiniParent {
@@ -57,6 +58,7 @@
   font-weight: 500;
   display: inline-block;
   max-width: 368%;
+  flex-shrink: 0;
   z-index: 1;
 }
 .singleMemberQuote {

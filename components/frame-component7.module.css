@@ -7,13 +7,11 @@
   max-width: 100%;
 }
 .b {
-  flex: 1;
   position: relative;
   line-height: 50px;
   z-index: 1;
 }
 .contentItem {
-  align-self: stretch;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -22,13 +20,13 @@
 }
 .loremIpsum {
   margin: 0;
-  align-self: stretch;
   position: relative;
   font-size: var(--font-size-5xl);
   line-height: 150%;
   font-weight: 400;
   font-family: inherit;
   color: var(--gray-2);
+  white-space: nowrap;
   z-index: 1;
 }
 .contentItems {
@@ -49,7 +47,6 @@
 }
 .contentItems1 {
   height: 88px;
-  width: 1px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -58,7 +55,6 @@
   box-sizing: border-box;
 }
 .wrapper {
-  align-self: stretch;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -66,7 +62,6 @@
   padding: 0px var(--padding-lgi) 0px var(--padding-xl);
 }
 .loremIpsumDolorSitAmetConWrapper {
-  align-self: stretch;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -74,7 +69,6 @@
   padding: 0px var(--padding-34xl);
 }
 .container {
-  align-self: stretch;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -108,12 +102,12 @@
   font-family: var(--font-poppins);
 }
 
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1225px) {
   .rectangleParent {
     flex-wrap: wrap;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 750px) {
   .b {
     font-size: var(--font-size-13xl);
     line-height: 40px;

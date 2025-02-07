@@ -13,6 +13,7 @@
   justify-content: flex-start;
   gap: var(--gap-21xl);
   max-width: 120%;
+  flex-shrink: 0;
 }
 .frameChild {
   height: 40px;
@@ -54,13 +55,13 @@
   letter-spacing: normal;
 }
 
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1225px) {
   .frameParent {
     padding-bottom: var(--padding-15xl);
     box-sizing: border-box;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 750px) {
   .frameGroup {
     gap: var(--gap-xl);
   }

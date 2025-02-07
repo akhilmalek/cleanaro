@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import GroupComponent from "./group-component";
+import Cards from "./Cards";
 import styles from "./frame-component5.module.css";
 
 export type FrameComponent5Type = {
@@ -24,9 +24,9 @@ const FrameComponent5: NextPage<FrameComponent5Type> = ({ className = "" }) => {
           </div>
         </div>
         <div className={styles.frameGroup}>
-          <GroupComponent cardIcons="/rectangle-111514@2x.png" />
-          <GroupComponent cardIcons="/rectangle-111537@2x.png" />
-          <GroupComponent cardIcons="/rectangle-111538@2x.png" />
+          <Cards cards="/rectangle-111514@2x.png" />
+          <Cards cards="/rectangle-111537@2x.png" />
+          <Cards cards="/rectangle-111538@2x.png" />
         </div>
       </div>
     </section>

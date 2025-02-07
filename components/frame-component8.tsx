@@ -74,11 +74,9 @@ const FrameComponent8: NextPage<FrameComponent8Type> = ({ className = "" }) => {
                 </div>
               </div>
             </div>
-            <TestimonialItem check="/check-3.svg" check1="/check-3.svg" />
+            <TestimonialItem />
             <TestimonialItem
-              check="/check-3.svg"
               hipsterIpsumTattooedColor="#eadde3"
-              check1="/check-3.svg"
               hipsterIpsumTattooedColor1="#eadde3"
             />
           </div>
@@ -101,21 +99,15 @@ const FrameComponent8: NextPage<FrameComponent8Type> = ({ className = "" }) => {
               />
             </div>
             <TestimonialItem
-              check="/check-9.svg"
               hipsterIpsumTattooedColor="#535353"
-              check1="/check-9.svg"
               hipsterIpsumTattooedColor1="#535353"
             />
             <TestimonialItem
-              check="/check-9.svg"
               hipsterIpsumTattooedColor="#535353"
-              check1="/check-9.svg"
               hipsterIpsumTattooedColor1="#535353"
             />
             <TestimonialItem
-              check="/check-9.svg"
               hipsterIpsumTattooedColor="#535353"
-              check1="/check-9.svg"
               hipsterIpsumTattooedColor1="#535353"
             />
           </div>

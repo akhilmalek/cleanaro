@@ -15,7 +15,6 @@
   padding: 0px var(--padding-40xl);
 }
 .consecteturMorbiScelerisque {
-  align-self: stretch;
   position: relative;
   font-size: var(--font-size-lg);
   line-height: 150%;
@@ -201,12 +200,12 @@
   font-family: var(--font-poppins);
 }
 
-@media screen and (max-width: 1125px) {
+@media screen and (max-width: 1050px) {
   .testimonial {
     flex-wrap: wrap;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 750px) {
   .tristiquePortaLorem {
     font-size: var(--font-size-13xl);
     line-height: 45px;
