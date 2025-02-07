@@ -65,7 +65,7 @@ const FrameComponent3: NextPage<FrameComponent3Type> = ({ className = "" }) => {
               </div>
             </div>
           </div>
-          <Button variant="primary" />
+          <Button variant="primary" >Lorem ipsum</Button>
         </div>
         <video className={styles.wrapper} autoPlay muted loop controls>
           <source src="https://youtu.be/wwpAQ0szKxg" />

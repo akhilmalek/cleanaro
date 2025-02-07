@@ -56,7 +56,7 @@ const Footer: NextPage<FooterType> = ({ className = "" }) => {
                 <Form className={styles.inputField}>
                   <Form.Control type="text" />
                 </Form>
-                <Button className={styles.statesecondary} variant="primary" />
+                <Button className={styles.statesecondary} variant="primary" name="" >SUbscribe</Button>
               </div>
             </div>
           </div>
